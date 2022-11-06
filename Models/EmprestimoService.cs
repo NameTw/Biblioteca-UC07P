@@ -53,7 +53,7 @@ namespace Biblioteca.Models
                 }else{
                     query = bc.Emprestimos;
                 }
-                return query.Include(r => r.Livro).ToList().OrderBy(r => r.NomeUsuario).ToList();
+                return query.Include(r => r.Livro).ToList().OrderByDescending(r => r.DataDevolucao).ToList();
             }
         }
 
