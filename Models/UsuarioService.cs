@@ -9,7 +9,10 @@ namespace Biblioteca.Models
         {
             using(BibliotecaContext bc = new BibliotecaContext())
             {
-                bc.Usuarios.Add(user);
+                Usuario usuario = new Usuario();
+                usuario.Login = user.Login;
+                usuario.Password = Criptografia.HashPassword(user.Password);
+                bc.Usuarios.Add(usuario);
                 bc.SaveChanges();
             }
         }
