@@ -51,3 +51,8 @@ C:\Users\Pichau\OneDrive\Área de Trabalho\Projeto biblioteca\Biblioteca-UC07P\o
 C:\Users\Pichau\OneDrive\Área de Trabalho\Projeto biblioteca\Biblioteca-UC07P\obj\Debug\netcoreapp3.1\Biblioteca.dll
 C:\Users\Pichau\OneDrive\Área de Trabalho\Projeto biblioteca\Biblioteca-UC07P\obj\Debug\netcoreapp3.1\Biblioteca.pdb
 C:\Users\Pichau\OneDrive\Área de Trabalho\Projeto biblioteca\Biblioteca-UC07P\obj\Debug\netcoreapp3.1\Biblioteca.genruntimeconfig.cache
+C:\Users\Pichau\OneDrive\Área de Trabalho\Projeto biblioteca\Biblioteca-UC07P\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Cadastro.cshtml.g.cs
+C:\Users\Pichau\OneDrive\Área de Trabalho\Projeto biblioteca\Biblioteca-UC07P\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\_FormCadastro.cshtml.g.cs
+C:\Users\Pichau\OneDrive\Área de Trabalho\Projeto biblioteca\Biblioteca-UC07P\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Excluir.cshtml.g.cs
+C:\Users\Pichau\OneDrive\Área de Trabalho\Projeto biblioteca\Biblioteca-UC07P\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Listagem.cshtml.g.cs
+C:\Users\Pichau\OneDrive\Área de Trabalho\Projeto biblioteca\Biblioteca-UC07P\obj\Debug\netcoreapp3.1\Razor\Views\Usuario\Edicao.cshtml.g.cs

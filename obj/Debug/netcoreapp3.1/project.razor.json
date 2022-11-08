@@ -14422,6 +14422,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\Projeto biblioteca\\Biblioteca-UC07P\\Views\\Usuario\\_FormCadastro.cshtml",
+      "TargetPath": "Views\\Usuario\\_FormCadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\Projeto biblioteca\\Biblioteca-UC07P\\Views\\Livro\\Edicao.cshtml",
       "TargetPath": "Views\\Livro\\Edicao.cshtml",
       "FileKind": "mvc"
@@ -14452,6 +14457,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\Projeto biblioteca\\Biblioteca-UC07P\\Views\\Usuario\\Excluir.cshtml",
+      "TargetPath": "Views\\Usuario\\Excluir.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\Projeto biblioteca\\Biblioteca-UC07P\\Views\\Livro\\Listagem.cshtml",
       "TargetPath": "Views\\Livro\\Listagem.cshtml",
       "FileKind": "mvc"
@@ -14467,6 +14477,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\Projeto biblioteca\\Biblioteca-UC07P\\Views\\Usuario\\Cadastro.cshtml",
+      "TargetPath": "Views\\Usuario\\Cadastro.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\Projeto biblioteca\\Biblioteca-UC07P\\Views\\Usuario\\Listagem.cshtml",
+      "TargetPath": "Views\\Usuario\\Listagem.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\Projeto biblioteca\\Biblioteca-UC07P\\Views\\Home\\Login.cshtml",
       "TargetPath": "Views\\Home\\Login.cshtml",
       "FileKind": "mvc"
@@ -14474,6 +14494,11 @@
     {
       "FilePath": "c:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\Projeto biblioteca\\Biblioteca-UC07P\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\Projeto biblioteca\\Biblioteca-UC07P\\Views\\Usuario\\Edicao.cshtml",
+      "TargetPath": "Views\\Usuario\\Edicao.cshtml",
       "FileKind": "mvc"
     }
   ],
