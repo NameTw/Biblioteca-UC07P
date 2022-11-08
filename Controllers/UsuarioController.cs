@@ -7,6 +7,7 @@ namespace Biblioteca.Controllers
     {
         public IActionResult Cadastro()
         {
+            Autenticacao.CheckLogin(this);
             @ViewBag.Pag = "Crie sua conta!";
             return View();
         }
@@ -22,6 +23,7 @@ namespace Biblioteca.Controllers
 
         public IActionResult Edicao(int id)
         {
+            Autenticacao.CheckLogin(this);
             UsuarioService us = new UsuarioService();
             Usuario user = us.DetalhesExcluir(id);
             @ViewBag.Pag = "Edição de contas!";
@@ -31,6 +33,7 @@ namespace Biblioteca.Controllers
         [HttpPost]
         public IActionResult Edicao(Usuario user)
         {
+            Autenticacao.CheckLogin(this);
             UsuarioService us = new UsuarioService();
             us.Atualizar(user);
             @ViewBag.Pag = "Edição do usuário realizada com sucesso!";
@@ -39,6 +42,7 @@ namespace Biblioteca.Controllers
 
         public IActionResult Excluir(int id)
         {
+            Autenticacao.CheckLogin(this);
             UsuarioService us = new UsuarioService();
             us.Deletar(id);
             @ViewBag.Pag = "Conta excluida com sucesso!";
@@ -47,6 +51,7 @@ namespace Biblioteca.Controllers
 
         public IActionResult Listagem()
         {
+            Autenticacao.CheckLogin(this);
             UsuarioService us = new UsuarioService();
             return View(us.Listar());
         }
