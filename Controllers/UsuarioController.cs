@@ -1,5 +1,8 @@
+using System.Collections.Generic;
+using System.Linq;
 using Biblioteca.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace Biblioteca.Controllers
 {

@@ -1,6 +1,7 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.Collections;
+using Microsoft.EntityFrameworkCore;
 
 namespace Biblioteca.Models
 {
@@ -83,5 +84,24 @@ namespace Biblioteca.Models
                 return bc.Livros.Find(id);
             }
         }
+
+        public ICollection<Livro> ListarLivrosTodos(int pag, int tamanho)
+        {
+            using(BibliotecaContext bc = new BibliotecaContext())
+            {
+                int s = (pag - 1) * tamanho;
+                IQueryable<Livro> registro = bc.Livros.Include(e => e.Titulo).OrderByDescending(e => e.Ano);
+                return registro.Skip(s).Take(tamanho).ToList();
+            }
+        }
+
+                              
+  public int CountPosts()
+  {
+      using (BibliotecaContext bc = new BibliotecaContext())
+      {
+          return bc.Livros.Count();
+      }
+  }
     }
 }

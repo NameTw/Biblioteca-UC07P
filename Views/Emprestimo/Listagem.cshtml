@@ -1,6 +1,8 @@
 @model ICollection<Emprestimo>
 @{
     ViewData["Title"] = "Listagem de Empréstimos";
+
+    string color = "";
 }
 
 <div class="row">
@@ -38,7 +40,14 @@
             <tbody>
                 @foreach(Emprestimo e in Model)
                 {
-                <tr>
+                    @if(System.DateTime.Compare(System.DateTime.Now, e.DataDevolucao)>0)   
+                        {
+                            color="text-danger";
+                        }else
+                        {
+                            color="text-success";
+                        }
+                <tr class="@color">
                     <td>@e.Id</td>
                     <td>@e.NomeUsuario</td>
                     <td>@e.DataEmprestimo.ToString("dd/MM/yyyy")</td>
